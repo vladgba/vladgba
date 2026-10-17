@@ -42,7 +42,6 @@
 ### 🚧 Currently building
 
 - **SimpleMd4PHP** — a Markdown-driven site engine for PHP servers (powers my personal site)
-- **Warehousy** — an Android app with a dynamic UI layer: JavaScript (QuickJS) scripts bridged to native Kotlin
 - **A modular file manager for Android** — code editor, gallery and music player as optional, separately installable modules
 
 ### 💡 Interests
