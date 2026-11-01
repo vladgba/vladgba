@@ -8,8 +8,7 @@
 <p align="center">
   <a href="https://t.me/vladgba"><img src="https://img.shields.io/badge/Telegram-@vladgba-26A5E4?style=flat&logo=telegram&logoColor=white" alt="Telegram"></a>
   <a href="mailto:vladgba@gmail.com"><img src="https://img.shields.io/badge/Email-vladgba@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white" alt="Email"></a>
-  <!-- TODO: replace YOUR_MATRIX_ID, e.g. @vladgba:matrix.org -->
-  <a href="https://matrix.to/#/YOUR_MATRIX_ID"><img src="https://img.shields.io/badge/Matrix-000000?style=flat&logo=matrix&logoColor=white" alt="Matrix"></a>
+  <a href="[https://matrix.to/#/YOUR_MATRIX_ID](https://matrix.to/#/@vladgba:matrix.org)"><img src="https://img.shields.io/badge/Matrix-000000?style=flat&logo=matrix&logoColor=white" alt="Matrix"></a>
   <!-- TODO: replace YOUR_DISCORD_USER_ID (numeric ID: Discord → Settings → Advanced → Developer Mode, then right-click your name → Copy User ID) -->
   <a href="https://discord.com/users/YOUR_DISCORD_USER_ID"><img src="https://img.shields.io/badge/Discord-5865F2?style=flat&logo=discord&logoColor=white" alt="Discord"></a>
   <!-- TODO: replace YOUR_SIGNAL_LINK with your username link (Signal → Profile → Username → QR code or link) -->
