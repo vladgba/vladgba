@@ -8,13 +8,10 @@
 <p align="center">
   <a href="https://t.me/vladgba"><img src="https://img.shields.io/badge/Telegram-@vladgba-26A5E4?style=flat&logo=telegram&logoColor=white" alt="Telegram"></a>
   <a href="mailto:vladgba@gmail.com"><img src="https://img.shields.io/badge/Email-vladgba@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white" alt="Email"></a>
-  <a href="[https://matrix.to/#/YOUR_MATRIX_ID](https://matrix.to/#/@vladgba:matrix.org)"><img src="https://img.shields.io/badge/Matrix-000000?style=flat&logo=matrix&logoColor=white" alt="Matrix"></a>
-  <!-- TODO: replace YOUR_DISCORD_USER_ID (numeric ID: Discord → Settings → Advanced → Developer Mode, then right-click your name → Copy User ID) -->
-  <a href="https://discord.com/users/YOUR_DISCORD_USER_ID"><img src="https://img.shields.io/badge/Discord-5865F2?style=flat&logo=discord&logoColor=white" alt="Discord"></a>
-  <!-- TODO: replace YOUR_SIGNAL_LINK with your username link (Signal → Profile → Username → QR code or link) -->
-  <a href="YOUR_SIGNAL_LINK"><img src="https://img.shields.io/badge/Signal-3A76F0?style=flat&logo=signal&logoColor=white" alt="Signal"></a>
-  <!-- TODO: replace YOUR_LINKEDIN_USERNAME -->
-  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat" alt="LinkedIn"></a>
+  <a href="https://matrix.to/#/@vladgba:matrix.org"><img src="https://img.shields.io/badge/Matrix-000000?style=flat&logo=matrix&logoColor=white" alt="Matrix"></a>
+  <a href="https://discord.com/users/vladgba"><img src="https://img.shields.io/badge/Discord-5865F2?style=flat&logo=discord&logoColor=white" alt="Discord"></a>
+  <a href="https://matrix.to/#/@vladgba:matrix.org"><img src="https://img.shields.io/badge/Signal-3A76F0?style=flat&logo=signal&logoColor=white" alt="Signal"></a>
+  <a href="https://www.linkedin.com/in/vladyslav-tishyn-aa55932b2"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat" alt="LinkedIn"></a>
 </p>
 <p align="center">
   <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat&logo=kotlin&logoColor=white" alt="Kotlin">
