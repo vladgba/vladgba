@@ -2,7 +2,7 @@
 
 <p align="center">
   Android developer from Ukraine 🇺🇦<br>
-  I like small, fast, dependency-free tools that do one thing well.
+  I build small, practical tools for Android and the web, with a focus on control, privacy and few dependencies.
 </p>
 
 <p align="center">
@@ -15,6 +15,7 @@
 </p>
 <p align="center">
   <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat&logo=kotlin&logoColor=white" alt="Kotlin">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat" alt="Java">
   <img src="https://img.shields.io/badge/Android-3DDC84?style=flat&logo=android&logoColor=white" alt="Android">
   <img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white" alt="PHP">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" alt="JavaScript">
@@ -22,28 +23,46 @@
 
 ---
 
-### 🔧 What I do
+### 🔧 What I build
 
-- **Native Android apps in Kotlin** — launchers, keyboards, system utilities, overlays and foreground services
-- **Lightweight web tooling** — minimal PHP engines without frameworks or heavy dependencies
+- **Native Android tools in Kotlin and Java** — keyboards, launchers, file editors, messaging, GNSS and device utilities. Most use the Android framework directly.
+- **Lightweight web tooling in PHP** — Markdown publishing, caching and small utilities without a framework.
+- **Shared foundations** — reusable UI components, Gradle configuration, automated checks and GitHub Actions builds across my apps.
 
-### 📌 Featured projects
+### 📌 The p* Android apps
+
+Tools I build for everyday use, with a shared look and an emphasis on small APKs and user control.
 
 | Project | Description |
 |---|---|
-| [**Darker**](https://github.com/vladgba/Darker) | Dims your screen beyond system limits using a pass-through foreground-service overlay. Tiny and native. |
-| [**Sheaf-launcher**](https://github.com/vladgba/Sheaf-launcher) | Minimal home-screen launcher with free-form widgets, a 2D page matrix and per-item z-order. |
-| [**VKeyboard**](https://github.com/vladgba/VKeyboard) | Customizable, lightweight virtual keyboard for Android. |
+| [**pKeyboard**](https://github.com/vladgba/pKeyboard) | Key gestures, editable layouts and themes, macros, clipboard history and word suggestions. Voice input is an optional add-on. |
+| [**pFiles**](https://github.com/vladgba/pFiles) | Two-panel file manager with archives, a code editor, Markdown viewer, big-file viewer and hex editor. |
+| [**pLauncher**](https://github.com/vladgba/pLauncher) | Home screen with free-form widgets, folders, icon gestures and a 2D page matrix. |
+| [**pShare**](https://github.com/vladgba/pShare) | Transfer files, folders and text over Wi-Fi, Wi-Fi Direct, internet, Bluetooth or a QR slideshow. |
+| [**pGPS**](https://github.com/vladgba/pGPS) | GNSS diagnostics, 3D/AR sky views, signal integrity checks, recording, waypoints and backtracking. |
+| [**pSMS**](https://github.com/vladgba/pSMS) | Private SMS with spam rules, conversation labels, OTP shortcuts and a home-screen widget. No internet permission. |
+| [**pCalendar**](https://github.com/vladgba/pCalendar) | Calendar, notes and to-dos with configurable home-screen widgets. |
+| [**pCalc**](https://github.com/vladgba/pCalc) | Calculator with custom formulas as keys, function plotting and history. |
+| [**pScanner**](https://github.com/vladgba/pScanner) | Offline barcode and QR scanning and generation, including Honeywell hardware scanner support. |
+| [**pDimmer**](https://github.com/vladgba/pDimmer) | Screen dimming below the system minimum, with widgets and a Quick Settings tile. |
+| [**pUtils**](https://github.com/vladgba/pUtils) | Compass, spirit level, ruler, GPS speedometer and live sensor monitoring. |
 
-### 🚧 Currently building
+### 🛠 Recent work
 
-- **SimpleMd4PHP** — a Markdown-driven site engine for PHP servers (powers my personal site)
-- **A modular file manager for Android** — code editor, gallery and music player as optional, separately installable modules
+- **Separate optional permissions from core features.** Moved voice input into [pKeyboard Voice](https://github.com/vladgba/pKeyboard#voice-input), keeping the keyboard itself free of microphone and internet permissions.
+- **Make file workflows more useful.** Added Markdown viewing and editor keyboard shortcuts in pFiles, and folder hierarchy support with regression checks for stream and QR transfers in pShare.
+- **Keep the app suite consistent.** Brought the apps under the p* names and shared pUI styling, added reusable release workflows, and fixed theme compatibility on older Android versions. The shared pieces live in [configs](https://github.com/vladgba/configs).
+
+### 🌐 Web and earlier projects
+
+[**SimpleMd4PHP**](https://github.com/vladgba/simplemd4php) is my single-file Markdown site engine for PHP: GitHub-style heading anchors, cached HTML and conditional HTTP responses, with no external dependencies.
+
+Earlier work includes [Back2source](https://github.com/vladgba/Back2source), a userscript fork I contributed to for redirecting copied pages to their original sources; [ShortURL](https://github.com/vladgba/ShortURL), a PHP/PDO URL shortener; and [Termux Python utilities](https://github.com/vladgba/termux-py-utils). These repositories are archived.
 
 ### 💡 Interests
 
 - Android internals — services, overlays, input methods, launchers, how the system really works under the hood
-- Minimal software design — doing more with less code and zero dependencies
+- Minimal software design — doing more with less code and fewer dependencies
 - Embedding scripting engines (QuickJS) into native apps
 - Microcontrollers and SBCs — Arduino, ESP32, STM32, Raspberry Pi Zero
 - UAVs and drones
