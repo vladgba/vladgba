@@ -1,9 +1,9 @@
 <h1 align="center">Hi, I'm Vlad 👋</h1>
 
 <p align="center">
-  <b>Android developer from Ukraine 🇺🇦</b><br>
-  I build small, practical tools for Android and the web, with a focus on control, privacy and few dependencies.<br>
-  Zero telemetry · Minimal dependencies · Direct Android framework integration.
+  <b>Android & Systems Developer from Ukraine 🇺🇦</b><br>
+  Crafting fast, low-footprint, privacy-first tools for Android, embedded systems, and the web.<br>
+  Zero telemetry · Minimal dependencies · Direct hardware & OS framework integration.
 </p>
 
 <p align="center">
@@ -18,60 +18,77 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat&logo=kotlin&logoColor=white" alt="Kotlin">
   <img src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white" alt="Java">
-  <img src="https://img.shields.io/badge/Android-3DDC84?style=flat&logo=android&logoColor=white" alt="Android">
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white" alt="PHP">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/Android%20NDK%20%2F%20C++-00599C?style=flat&logo=cplusplus&logoColor=white" alt="C++">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/PHP%208-777BB4?style=flat&logo=php&logoColor=white" alt="PHP">
+  <img src="https://img.shields.io/badge/JavaScript%20%2F%20TS-F7DF1E?style=flat&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white" alt="Bash">
 </p>
 
 ---
 
-### 🔧 What I build
+## 🧭 Principles & Engineering Philosophy
 
-- **Native Android tools in Kotlin and Java** — keyboards, launchers, file managers, GNSS and device utilities.
-- **Lightweight web tooling in PHP** — Markdown publishing, caching and small utilities without heavy frameworks.
-- **Shared foundations** — reusable UI components (`pUI`), Gradle configuration, and automated build workflows across my apps.
-
----
-
-### 📱 The p* Android Apps
-
-Tools I build for everyday use, with a shared design language and an emphasis on small APKs and privacy.
-
-| Project | Description |
-|:---|:---|
-| [**pKeyboard**](https://github.com/vladgba/pKeyboard) | Key gestures, editable layouts and themes, macros, clipboard history and word suggestions. Voice input is an optional add-on. |
-| [**pFiles**](https://github.com/vladgba/pFiles) | Two-panel file manager with archives, code editor, Markdown viewer, big-file viewer and hex editor. |
-| [**pLauncher**](https://github.com/vladgba/pLauncher) | Home screen with free-form widgets, folders, icon gestures and a 2D page matrix. |
-| [**pShare**](https://github.com/vladgba/pShare) | Transfer files, folders and text over Wi-Fi, Wi-Fi Direct, internet, Bluetooth or a QR slideshow. |
-| [**pGPS**](https://github.com/vladgba/pGPS) | GNSS diagnostics, 3D/AR sky views, signal integrity checks, recording, waypoints and backtracking. |
-| [**pSMS**](https://github.com/vladgba/pSMS) | Private SMS with spam rules, conversation labels, OTP shortcuts and a home-screen widget. No internet permission. |
-| [**pCalendar**](https://github.com/vladgba/pCalendar) | Calendar, notes and to-dos with configurable home-screen widgets. |
-| [**pCalc**](https://github.com/vladgba/pCalc) | Calculator with custom formulas as keys, function plotting and history. |
-| [**pScanner**](https://github.com/vladgba/pScanner) | Offline barcode and QR scanning and generation, including Honeywell hardware scanner support. |
-| [**pDimmer**](https://github.com/vladgba/pDimmer) | Screen dimming below the system minimum, with widgets and a Quick Settings tile. |
-| [**pUtils**](https://github.com/vladgba/pUtils) | Compass, spirit level, ruler, GPS speedometer and live sensor monitoring. |
+- **Zero Unnecessary Dependencies:** Standard libraries and direct OS frameworks over heavy third-party bloat.
+- **Privacy by Architecture:** Strict permission isolation (e.g. apps without internet permissions stay offline).
+- **Extreme Efficiency:** Instant startup times, lean APK binaries, low battery impact, and zero trackers.
+- **System Control & Transparency:** Clean, inspectable architectures built for power users.
 
 ---
 
-### 🌐 Web and Open Projects
+## 📱 The p* Android Ecosystem
 
-- [**SimpleMd4PHP**](https://github.com/vladgba/simplemd4php) — Single-file Markdown site engine for PHP with heading anchors, cached HTML, and zero external dependencies.
-- [**configs**](https://github.com/vladgba/configs) — Shared `pUI` styling, build templates, and reusable GitHub Actions CI/CD workflows for the `p*` suite.
-- Earlier archived work includes [Back2source](https://github.com/vladgba/Back2source), [ShortURL](https://github.com/vladgba/ShortURL), [php-cache-proxy](https://github.com/vladgba/php-cache-proxy), and [termux-py-utils](https://github.com/vladgba/termux-py-utils).
+A cohesive suite of native Android applications engineered around shared `pUI` styling, modular Gradle setups, and direct OS framework interaction.
+
+| App | Description | Repository |
+|:---|:---|:---:|
+| **pKeyboard** | Gestures, custom layouts, macro scripting, clipboard history, theme engine. Voice recognition is completely isolated in an optional add-on. | [GitHub](https://github.com/vladgba/pKeyboard) |
+| **pFiles** | Dual-pane file manager, built-in code editor, Markdown viewer, hex editor, large-file analyzer, and zip engine. | [GitHub](https://github.com/vladgba/pFiles) |
+| **pLauncher** | Clean 2D page matrix home screen with free-form widget placement, folder hierarchies, and edge gestures. | [GitHub](https://github.com/vladgba/pLauncher) |
+| **pShare** | Offline and cross-network transfers over Wi-Fi, Wi-Fi Direct, Bluetooth, local hotspot, and visual QR code slideshows. | [GitHub](https://github.com/vladgba/pShare) |
+| **pGPS** | GNSS constellation diagnostics, 3D/AR sky projection, signal integrity auditing, track recording, and waypoint navigation. | [GitHub](https://github.com/vladgba/pGPS) |
+| **pSMS** | Secure, offline SMS manager with regex spam rules, conversation tags, OTP extraction, and zero internet permission. | [GitHub](https://github.com/vladgba/pSMS) |
+| **pCalendar** | Fast calendar, task planner, and agenda engine with customizable home-screen widgets. | [GitHub](https://github.com/vladgba/pCalendar) |
+| **pCalc** | Calculator supporting programmable formula keys, trigonometric solvers, history tape, and function graphing. | [GitHub](https://github.com/vladgba/pCalc) |
+| **pScanner** | High-speed offline QR and 1D/2D barcode reader/generator with native Honeywell hardware scanner support. | [GitHub](https://github.com/vladgba/pScanner) |
+| **pDimmer** | Hardware screen backlight override allowing dimming below system minimums via Quick Settings tiles and overlay shaders. | [GitHub](https://github.com/vladgba/pDimmer) |
+| **pUtils** | Integrated sensor toolkit: compass, digital spirit level, precision ruler, GPS speedometer, and hardware telemetry. | [GitHub](https://github.com/vladgba/pUtils) |
 
 ---
 
-### 🧭 Principles
+## 🛠 Recent Engineering Milestones
 
-- Fewer dependencies → fewer surprises
-- Small APKs, fast startup, no trackers
-- “You can’t” is just a hypothesis I like to test
+- **`pKeyboard` Voice Isolation:** Refactored voice input into an optional, isolated `pKeyboard Voice` add-on, keeping the core IME binary completely free of microphone and network permissions. Added dedicated icons for prebuilt layouts and themes.
+- **Universal Android 5 Compatibility (API 21-22):** Hardened theme color pipelines, `pColor` calculations, and translucent status bars across all `p*` apps, eliminating crashes on legacy Android releases.
+- **Unified `pUI` & Shared Gradle Engine:** Extracted `pUI` common styling, standardized About dialogs, and automated GitHub Actions release APK generators across repositories via [`configs`](https://github.com/vladgba/configs).
+- **`pShare` Protocol Expansion:** Upgraded QR visual transfer speed, memory buffering, folder hierarchy replication, and bidirectional sync tests.
+- **`pFiles` Enhancements:** Deployed mobile roadmap modules, full code viewer activities, and Markdown preview directly within file trees.
 
 ---
+
+## 🌐 Web & Open Tooling
+
+- [**Markdown Project Hub (SimpleMd4PHP)**](https://github.com/vladgba/simplemd4php) — Ultra-fast, single-file Markdown website engine written in modern PHP. Features GitHub Flavored Markdown (GFM), heading anchors, conditional HTTP cache validation (ETag/304), breadcrumb navigation, and in-memory ZIP / Git bundle file browsing without server-side archive extraction.
+- [**configs**](https://github.com/vladgba/configs) — Reusable configuration templates, `pUI` shared styling, and automated GitHub Actions build workflows for Android and PHP.
+- [**php-cache-proxy**](https://github.com/vladgba/php-cache-proxy) — Modular caching reverse proxy split into `PageCache`, `ProxyTarget`, and `UrlRewriter` with POST isolation and automated PHP syntax linting.
+- Earlier open work includes [Back2source](https://github.com/vladgba/Back2source), [ShortURL](https://github.com/vladgba/ShortURL), and [termux-py-utils](https://github.com/vladgba/termux-py-utils).
+
+---
+
+## 🔬 Core Interests & Technical Domains
+
+- **Android System Internals:** WindowManager overlays, InputMethodService pipelines, accessibility services, IPC via Binder, and custom ROM integration.
+- **Embedded Runtimes:** Embedding lightweight JS engines ([QuickJS](https://bellard.org/quickjs/)) and micro-scripting into native Android and C++ apps.
+- **Hardware & Microcontrollers:** Firmware hacking on ESP32, STM32, Arduino, and Raspberry Pi Zero nodes.
+- **Decentralized & Local-First:** Offline-first architectures, encrypted peer communication, and distributed device sync.
+
+---
+
+## 📊 Activity & Statistics
 
 <p align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=vladgba&hide_rank=true&hide_title=true&show=reviews%2Cdiscussions_started%2Cdiscussions_answered%2Cprs_merged%2Cprs_merged_percentage%2Cprs_commented%2Cprs_reviewed%2Cissues_commented%2Ccontributions%2Call_time_contribs&show_icons=true&include_all_commits=true&disable_animations=true&theme=light_github" alt="GitHub stats">
+  <img src="https://github-stats-extended.vercel.app/api?username=vladgba&hide_rank=true&hide_title=true&show=reviews%2Cdiscussions_started%2Cdiscussions_answered%2Cprs_merged%2Cprs_merged_percentage%2Cprs_commented%2Cprs_reviewed%2Cissues_commented%2Ccontributions%2Call_time_contribs&show_icons=true&include_all_commits=true&disable_animations=true&theme=light_github" alt="GitHub Stats">
 </p>
 <p align="center">
-  <img src="https://github-stats-extended.vercel.app/api/top-langs?username=vladgba&hide_title=true&langs_count=10&hide_values=true&disable_animations=true&theme=light_github" alt="Top languages">
+  <img src="https://github-stats-extended.vercel.app/api/top-langs?username=vladgba&hide_title=true&langs_count=10&hide_values=true&disable_animations=true&theme=light_github" alt="Top Languages">
 </p>
