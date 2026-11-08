@@ -42,17 +42,17 @@ A cohesive suite of native Android applications engineered around shared `pUI` s
 
 | App | Description | GitHub | Site / Docs |
 |:---|:---|:---:|:---:|
-| **pKeyboard** | Gestures, custom layouts, macro scripting, clipboard history, theme engine. Voice recognition is completely isolated in an optional add-on. | [GitHub](https://github.com/vladgba/pKeyboard) | [Live View](https://zcxv.cc/apps/pKeyboard/) |
-| **pFiles** | Dual-pane file manager, built-in code editor, Markdown viewer, hex editor, large-file analyzer, and zip engine. | [GitHub](https://github.com/vladgba/pFiles) | [Live View](https://zcxv.cc/apps/pFiles/) |
-| **pLauncher** | Clean 2D page matrix home screen with free-form widget placement, folder hierarchies, and edge gestures. | [GitHub](https://github.com/vladgba/pLauncher) | [Live View](https://zcxv.cc/apps/pLauncher/) |
-| **pShare** | Offline and cross-network transfers over Wi-Fi, Wi-Fi Direct, Bluetooth, local hotspot, and visual QR code slideshows. | [GitHub](https://github.com/vladgba/pShare) | [Live View](https://zcxv.cc/apps/pShare/) |
-| **pGPS** | GNSS constellation diagnostics, 3D/AR sky projection, signal integrity auditing, track recording, and waypoint navigation. | [GitHub](https://github.com/vladgba/pGPS) | [Live View](https://zcxv.cc/apps/pGPS/) |
-| **pSMS** | Secure, offline SMS manager with regex spam rules, conversation tags, OTP extraction, and zero internet permission. | [GitHub](https://github.com/vladgba/pSMS) | [Live View](https://zcxv.cc/apps/pSMS/) |
-| **pCalendar** | Fast calendar, task planner, and agenda engine with customizable home-screen widgets. | [GitHub](https://github.com/vladgba/pCalendar) | [Live View](https://zcxv.cc/apps/pCalendar/) |
-| **pCalc** | Calculator supporting programmable formula keys, trigonometric solvers, history tape, and function graphing. | [GitHub](https://github.com/vladgba/pCalc) | [Live View](https://zcxv.cc/apps/pCalc/) |
-| **pScanner** | High-speed offline QR and 1D/2D barcode reader/generator with native Honeywell hardware scanner support. | [GitHub](https://github.com/vladgba/pScanner) | [Live View](https://zcxv.cc/apps/pScanner/) |
-| **pDimmer** | Hardware screen backlight override allowing dimming below system minimums via Quick Settings tiles and overlay shaders. | [GitHub](https://github.com/vladgba/pDimmer) | [Live View](https://zcxv.cc/apps/pDimmer/) |
-| **pUtils** | Integrated sensor toolkit: compass, digital spirit level, precision ruler, GPS speedometer, and hardware telemetry. | [GitHub](https://github.com/vladgba/pUtils) | [Live View](https://zcxv.cc/apps/pUtils/) |
+| **pKeyboard** | Gestures, custom layouts, macro scripting, clipboard history, theme engine. Voice recognition is completely isolated in an optional add-on. | [GitHub](https://github.com/vladgba/pKeyboard) | [View](https://zcxv.cc/apps/pKeyboard/) |
+| **pFiles** | Dual-pane file manager, built-in code editor, Markdown viewer, hex editor, large-file analyzer, and zip engine. | [GitHub](https://github.com/vladgba/pFiles) | [View](https://zcxv.cc/apps/pFiles/) |
+| **pLauncher** | Clean 2D page matrix home screen with free-form widget placement, folder hierarchies, and edge gestures. | [GitHub](https://github.com/vladgba/pLauncher) | [View](https://zcxv.cc/apps/pLauncher/) |
+| **pShare** | Offline and cross-network transfers over Wi-Fi, Wi-Fi Direct, Bluetooth, local hotspot, and visual QR code slideshows. | [GitHub](https://github.com/vladgba/pShare) | [View](https://zcxv.cc/apps/pShare/) |
+| **pGPS** | GNSS constellation diagnostics, 3D/AR sky projection, signal integrity auditing, track recording, and waypoint navigation. | [GitHub](https://github.com/vladgba/pGPS) | [View](https://zcxv.cc/apps/pGPS/) |
+| **pSMS** | Secure, offline SMS manager with regex spam rules, conversation tags, OTP extraction, and zero internet permission. | [GitHub](https://github.com/vladgba/pSMS) | [View](https://zcxv.cc/apps/pSMS/) |
+| **pCalendar** | Fast calendar, task planner, and agenda engine with customizable home-screen widgets. | [GitHub](https://github.com/vladgba/pCalendar) | [View](https://zcxv.cc/apps/pCalendar/) |
+| **pCalc** | Calculator supporting programmable formula keys, trigonometric solvers, history tape, and function graphing. | [GitHub](https://github.com/vladgba/pCalc) | [View](https://zcxv.cc/apps/pCalc/) |
+| **pScanner** | High-speed offline QR and 1D/2D barcode reader/generator with native Honeywell hardware scanner support. | [GitHub](https://github.com/vladgba/pScanner) | [View](https://zcxv.cc/apps/pScanner/) |
+| **pDimmer** | Hardware screen backlight override allowing dimming below system minimums via Quick Settings tiles and overlay shaders. | [GitHub](https://github.com/vladgba/pDimmer) | [View](https://zcxv.cc/apps/pDimmer/) |
+| **pUtils** | Integrated sensor toolkit: compass, digital spirit level, precision ruler, GPS speedometer, and hardware telemetry. | [GitHub](https://github.com/vladgba/pUtils) | [View](https://zcxv.cc/apps/pUtils/) |
 
 ---
 
